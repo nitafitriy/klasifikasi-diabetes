@@ -7,4 +7,3 @@ streamlit
 scikit-learn
 seaborn
 imbalanced-learn
-pickle
