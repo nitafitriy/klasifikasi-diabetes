@@ -11,21 +11,21 @@ st.title('Sistem Klasifikasi Diabetes')
 # Membagi Kolom
 col1, col2 = st.columns(2)
 with col1:
-    Pregnancies = st.text_input('Nilai Pregnancies')
+    Pregnancies = st.text_input('Jumlah Berapa Kali Hamil')
 with col1:
-    Glucose = st.text_input('Nilai Glucose (mg/dL)')
+    Glucose = st.text_input('Konsentrasi Kandungan Glukosa (mg/dL)')
 with col1:
-    BloodPressure = st.text_input('Nilai BloodPressure (mmHg)')
+    BloodPressure = st.text_input('Tekanan Darah Diastolik (mmHg)')
 with col1:
-    SkinThickness = st.text_input('Nilai SkinThickness (mm)')
+    SkinThickness = st.text_input('Ketebalan Lipatan Kulit (mm)')
 with col2:
-    Insulin = st.text_input('Nilai Insulin (muU/mL)')
+    Insulin = st.text_input('Insulin (muU/mL)')
 with col2:
-    BMI = st.text_input('Nilai BMI (kg/m2')
+    BMI = st.text_input('Masa Tubuh (kg/m2)')
 with col2:
-    DiabetesPedigreeFunction = st.text_input('Nilai DiabetesPedigreeFunction')
+    DiabetesPedigreeFunction = st.text_input('Silsilah Keturunan Diabetes')
 with col2:
-    Age = st.text_input('Nilai Age (tahun)')
+    Age = st.text_input('Umur (tahun)')
 
 # Pemeriksaan kesalahan dan Normalisasi input menggunakan Min-Max scaler
 input_data = np.array([[Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin, BMI, DiabetesPedigreeFunction, Age]])
