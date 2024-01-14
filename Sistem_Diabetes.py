@@ -17,11 +17,11 @@ with col1:
 with col1:
     BloodPressure = st.text_input('Nilai BloodPressure (mmHg)')
 with col1:
-    SkinThickness = st.text_input('Nilai SkinThickness')
+    SkinThickness = st.text_input('Nilai SkinThickness (mm)')
 with col2:
-    Insulin = st.text_input('Nilai Insulin')
+    Insulin = st.text_input('Nilai Insulin (muU/mL)')
 with col2:
-    BMI = st.text_input('Nilai BMI')
+    BMI = st.text_input('Nilai BMI (kg/m2')
 with col2:
     DiabetesPedigreeFunction = st.text_input('Nilai DiabetesPedigreeFunction')
 with col2:
