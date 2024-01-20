@@ -21,7 +21,7 @@ with col1:
 with col2:
     Insulin = st.text_input('Insulin (muU/mL)')
 with col2:
-    BMI = st.text_input('Masa Tubuh (kg/m2)')
+    BMI = st.text_input('Massa Tubuh (kg/m2)')
 with col2:
     DiabetesPedigreeFunction = st.text_input('Silsilah Keturunan Diabetes')
 with col2:
