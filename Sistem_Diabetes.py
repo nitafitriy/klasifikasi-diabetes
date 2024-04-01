@@ -7,7 +7,7 @@ diabetes_model = pickle.load(open('modelsvmsmote.sav', 'rb'))
 
 # Judul Web
 st.title('Sistem Klasifikasi Diabetes')
-st.write('(Studi Kasus pada Wanita)')
+st.write("# **Studi Kasus: Sistem Klasifikasi Diabetes**")
 
 # Membagi Kolom
 col1, col2 = st.columns(2)
