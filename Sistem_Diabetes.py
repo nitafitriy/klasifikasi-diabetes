@@ -6,7 +6,7 @@ import numpy as np
 diabetes_model = pickle.load(open('modelsvmsmote.sav', 'rb'))
 
 # Judul Web
-st.title('Sistem Klasifikasi Diabetes (studi kasus pada wanita)')
+st.title('Sistem Klasifikasi Diabetes              (studi kasus pada wanita)')
 
 # Membagi Kolom
 col1, col2 = st.columns(2)
